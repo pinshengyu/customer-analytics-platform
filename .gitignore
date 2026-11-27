@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 執行時產生的資料與結果（不上傳）
+*.csv
+*.xlsx
+RAW_Data/
+ETL_Output/
+執行紀錄/
+報告結果/
+檢查結果/
+原始資料/原始資料範例/
+描述性分析/*/
+診斷性分析/*.json
+預測性分析/預測結果/
+K-means分群/Cluster/
+K-means分群/K_Means/
+
+# 機密
+.env
